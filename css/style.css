@@ -11,7 +11,7 @@ nav {
 	left: 0;
 	right: 0;
 	padding: 0px;
-	height: 70px;
+	height: 100px;
 	background-color: white;
 	border: .1px solid #EBEBEB;
 	z-index: 100;
@@ -28,7 +28,7 @@ nav ul {
 nav li {
 	display:inline-block;
 	margin: 20px;
-	margin-top: 10px;
+	margin-top: 25px;
 }
 
 nav a {
@@ -52,8 +52,10 @@ nav a {
 	height: 43px;
 	margin: 30px;
 	padding: 0px;
-	margin-top: 10px;
+	margin-top: 30px;
 }
+
+/* Main part */
 
 	#main-photo {
 	width:1012px;
@@ -62,7 +64,33 @@ nav a {
 	margin-top: 120px;
 }
 
+/* About */
+
+.color-box {
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 24px;
+	font-family: Roboto-Regular, sans-serif;
+	padding: 150px;
+}
+
+h1,h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h3 {
+	font-family: Roboto-Thin, sans-serif;
+}
+
+/* Gallery */
+
 .gallery {
+	margin-top: 50px;
 	display: flex;
 }
 
@@ -72,6 +100,7 @@ nav a {
 }
 
 .gallery-column {
+
 	flex-direction: column;
 }
 
@@ -84,61 +113,54 @@ nav a {
 	height: 33%;
 }
 
-h1 .wrap {
-
+.img {
+	outline-style: solid;
 }
 
-h2 {
-	font-family: Roboto-Bold;
-	font-size: 36px;
-	color: #FFFFFF;
-	letter-spacing: -1.74px;
-	text-align: center;
-}
+/* Footer */
 
-footer {
+.footer {
+	position: absolute;
 	border: 0;
 	background-color: #000000;
-	text-decoration: none;
+	color: #FFFFFF;
 	font-family: Roboto, sans-serif, medium;
 	font-size: 24px;
-	color: #FFFFFF;
+	text-align: center;
 	width: 100%;
 	height: 332px;
-	margin: 0;
-	padding: 0;
-	overflow: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding: 110px;
+
 }
 
-footer .wrap {
+
+footer ul {
+	list-style-type: none;
+}
+
+footer li {
+	list-style-type: none;
+	display:inline-block;
+	margin: 0px;
+	
+}
+
+.contact a {	
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.bottomlogo {
 	padding: 0px;
 	margin: 0px;
 }
 
-footer ul {
-	max-width: 800px;
-	padding: 5px 0px;
-	color: #FFFFFF;
-	float: right;
-	list-style-type: none;
-}
-
-.social {
-	float: right;
-	padding: 50px;
-	margin: 20px;
-	font-size: 24px;
-	text-align: center;
-	font-family: Roboto, sans-serif, medium;
-}
-
-.bottomlogo {
-	float: left;
-	padding: 50px;
-	margin: 20px;
-	font-size: 24px;
-	text-align: center;
-	font-family: Roboto, sans-serif, medium;
+.footer-column {
+	text-decoration: none;
 }
 
 @media only screen and (max-width: 790px) {
