@@ -98,6 +98,14 @@ nav a {
 	padding: 150px;
 }
 
+.white-box {	
+	color: #000;
+	text-align: center;
+	font-size: 24px;
+	font-family: Roboto-Regular, sans-serif;
+	padding: 150px;
+}
+
 .mainImage{
 	margin-bottom:-4px;
 	width:100%;
@@ -234,6 +242,11 @@ nav li{
 	padding:15px;
 	font-size:18px;
 }
+
+.white-box{
+	padding:15px;
+	font-size:18px;
+}
 #carousel{
 	padding:0px;
 }
@@ -242,3 +255,46 @@ nav li{
 }
 
 }
+
+/* Button */
+
+button {
+	font-size: 12px;
+    width: 200px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 24px;
+    display: inline-block;
+    border: none;
+    padding: 10px 25px;
+    color: #ffffff;
+    background-color: #49B4B6;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+	transition: all .3s ease-in-out;
+}
+
+button:hover {
+	background-color: #067779;	
+	font-weight: 600;
+}
+
+textarea {
+	width: 97%;
+	display: inline;
+}
+
+input, textarea {
+	border: 1px solid #D5D3D3;
+	font-size: 18px;
+	margin-bottom: 12px;
+	margin-bottom: .8rem;
+	padding: 10px 10px;
+	outline: 0;
+}
+
+.col-third {
+	width: 32%;
+}
+
