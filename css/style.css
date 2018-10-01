@@ -107,13 +107,25 @@ h1,h3 {
 	text-align: center;
 }
 
-h1 {
-	font-size: 40px;
+.main-text, .main-text2 {
 	font-family: Roboto-Bold, sans-serif;
+	font-size: 62px;
+	margin: -20px;
+}
+
+.sub-text, .sub-text2 {
+	font-family: Roboto, sans-serif;
+	font-size: 20px;
+}
+
+h1 {
+	font-family: Roboto-Bold, sans-serif;
+	font-size: 40px;
 }
 
 h3 {
 	font-family: Roboto, sans-serif;
+	font-size: 30px;
 }
 
 /* Gallery */
@@ -142,6 +154,17 @@ h3 {
 	margin: 5px;
 	border: 1px solid #EBEBEB;
 	border-radius: 5px;
+}
+
+/* About */
+
+.white-box {
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: center;
+	font-size: 24px;
+	font-family: Roboto-Regular, sans-serif;
+	padding: 150px;
 }
 
 /* Contact Me */

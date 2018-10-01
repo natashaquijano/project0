@@ -14,8 +14,10 @@ img {
 
 /* Slideshow container */
 .slideshow-container { 
+  padding: -150px;
   position: relative;
   margin: auto;
+
 }
 
 /* Next & previous buttons */
@@ -47,10 +49,10 @@ img {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 32px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 120px;
   width: 100%;
   text-align: center;
 }
