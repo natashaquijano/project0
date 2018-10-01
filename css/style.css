@@ -11,9 +11,9 @@ nav {
 	right: 0;
 	padding: 0px;
 	height: 100px;
-	background-color: white;
-	border: .1px solid #EBEBEB;
-	z-index: 100;
+	background-color: #000000;
+	/*border: .1px solid #EBEBEB;
+	z-index: 100;*/
 }
 
 
@@ -22,16 +22,17 @@ nav ul {
 	padding: 0px;
 	float: right;
 	list-style-type: none;
+	color: white;
 	font-family: Roboto-Bold, sans-serif;
 }
 
 nav li {
 	display:inline-block;
-	margin: 10px;
+	margin: 0px;
 	margin-top: 10px;
 }
 
-nav li:hover {
+nav li a:hover {
 	color: #49B4B6;
 }
 
@@ -39,10 +40,10 @@ nav li:hover {
 nav a {
 	text-decoration: none;
 	float: right;
-	font-family: Roboto-Regular;
+	/*font-family: Roboto-Regular;*/
 	font-size: 18px;
 	font-weight: 600px;
-	color: #000000;
+	color: white;
 	padding: 10px 40px;
 	letter-spacing: 1px;
 	text-align: center;
@@ -84,6 +85,12 @@ nav a {
 	padding: 150px;
 }
 
+.mainImage{
+	margin-bottom:-4px;
+	width:100%;
+	min-width:300px;
+}
+
 h1,h3 {
 	text-align: center;
 }
@@ -99,8 +106,7 @@ h3 {
 
 /* Gallery */
 
-.gallery {
-	margin-top: 140px;
+.gallery {	
 	display: flex;
 }
 
@@ -110,7 +116,6 @@ h3 {
 }
 
 .gallery-column {
-
 	flex-direction: column;
 }
 
@@ -133,8 +138,8 @@ h3 {
 /* Slideshow */
 
 #carousel {
-	padding-right: 80px;
-    padding-left: 74px;
+	padding-right: 20px;
+    padding-left: 20px;
 }
 
 /* Footer */
@@ -183,5 +188,26 @@ footer li {
 }
 
 @media only screen and (max-width: 790px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+nav {	
+	height: unset;	
+}
+nav li{
+	margin:0px;
+	display:block;
+}
+.gallery{
+	display:block;
+}
+.color-box{
+	padding:15px;
+	font-size:18px;
+}
+#carousel{
+	padding:0px;
+}
 
 }
