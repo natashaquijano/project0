@@ -11,10 +11,13 @@ body{
 /* Header */
 
 .hamburger {
-		display: block;
+		/*display: block;*/
+		display: none;
 		color: #fff;
-		font-size: 1.7rem;
-		position: absolute;
+		font-size: 32px;
+		margin: 10px;
+		margin-right: 0px;
+		float: right;
 		top: 10px;
 		left: 2px;
 	}
@@ -106,8 +109,7 @@ nav a {
 	padding: 150px;
 }
 
-.mainImage{
-	margin-bottom:-4px;
+.mainImage{	
 	width:100%;
 	min-width:300px;
 }
@@ -254,6 +256,13 @@ nav li{
 	flex-direction:column;
 }
 
+.hamburger {
+	display: block;
+}
+
+nav ul {
+display: none;
+	}
 }
 
 /* Button */
@@ -297,4 +306,8 @@ input, textarea {
 .col-third {
 	width: 32%;
 }
+
+
+
+
 
