@@ -32,3 +32,16 @@ function goToSlide(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+function showLinks()
+{
+	var navLinks = document.getElementById("navLinks");
+	if(navLinks.style.display == "none")
+	{
+		navLinks.style.display = "block";
+	}
+	else{
+		navLinks.style.display = "none";
+	}
+	
+}

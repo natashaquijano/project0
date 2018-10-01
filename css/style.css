@@ -13,13 +13,11 @@ body{
 .hamburger {
 		/*display: block;*/
 		display: none;
-		color: #fff;
-		font-size: 32px;
-		margin: 10px;
-		margin-right: 0px;
+		color: #FFFFFF;
+		font-size: 50px;
+		margin: 6px;
+		margin-right: -10px;
 		float: right;
-		top: 10px;
-		left: 2px;
 	}
 
 nav {
@@ -81,15 +79,6 @@ nav a {
 	margin-top: 30px;
 }
 
-/* Main part */
-
-	/*#main-photo {
-	width:1012px;
-	height:884px;
-	background-image:url('../imgs/mainphoto_1012x884.png');
-	padding-top: 600px;
-}
-
 /* About */
 
 .color-box {
@@ -134,8 +123,6 @@ h3 {
 }
 
 .gallery-center {
-	padding-left:15px;
-	padding-right:15px;
 	align-items: center;
 	justify-content: center;
 	text-align:center;
@@ -151,23 +138,54 @@ h3 {
 
 .gallery-item {
 	width: 32%;
-	height: 33%;
-	padding: 15px;
+	height: 32%;
+	margin: 5px;
 	border: 1px solid #EBEBEB;
 	border-radius: 5px;
-	padding-top: 45px;
-    padding-right: 45px;
-    padding-bottom: 45px;
-    padding-left: 45px;
 }
 
-/* Slideshow */
+/* Contact Me */
 
-/*#carousel {
-	padding-right: 80px;
-    padding-left: 74px;
+button {
+	font-size: 12px;
+    width: 200px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 24px;
+    display: inline-block;
+    border: none;
+    padding: 10px 25px;
+    color: #ffffff;
+    background-color: #49B4B6;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+	transition: all .3s ease-in-out;
 }
-*/
+
+button:hover {
+	background-color: #067779;	
+	font-weight: 600;
+}
+
+textarea {
+	width: 97%;
+	display: inline;
+}
+
+input, textarea {
+	border: 1px solid #D5D3D3;
+	font-size: 18px;
+	margin-bottom: 12px;
+	margin-bottom: .8rem;
+	padding: 10px 10px;
+	outline: 0;
+}
+
+.col-third {
+	width: 32%;
+}
+
 
 /* Footer */
 
@@ -265,48 +283,9 @@ display: none;
 	}
 }
 
-/* Button */
-
-button {
-	font-size: 12px;
-    width: 200px;
-    line-height: 16px;
-    text-align: center;
-    font-size: 24px;
-    display: inline-block;
-    border: none;
-    padding: 10px 25px;
-    color: #ffffff;
-    background-color: #49B4B6;
-    letter-spacing: 1px;
-    text-decoration: none;
-    cursor: pointer;
-	transition: all .3s ease-in-out;
+.home {
+	color: #FFFFFF;
 }
-
-button:hover {
-	background-color: #067779;	
-	font-weight: 600;
-}
-
-textarea {
-	width: 97%;
-	display: inline;
-}
-
-input, textarea {
-	border: 1px solid #D5D3D3;
-	font-size: 18px;
-	margin-bottom: 12px;
-	margin-bottom: .8rem;
-	padding: 10px 10px;
-	outline: 0;
-}
-
-.col-third {
-	width: 32%;
-}
-
 
 
 
