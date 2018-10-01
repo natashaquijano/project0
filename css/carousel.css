@@ -14,9 +14,14 @@ img {
 
 /* Slideshow container */
 .slideshow-container { 
-  padding: -150px;
+  padding-bottom: 150px;
   position: relative;
   margin: auto;
+
+}
+
+.text, .dot {
+  position:;
 
 }
 

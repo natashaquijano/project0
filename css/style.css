@@ -177,6 +177,7 @@ button {
     font-size: 24px;
     display: inline-block;
     border: none;
+    border-radius: 2px;
     padding: 10px 25px;
     color: #ffffff;
     background-color: #49B4B6;
@@ -194,6 +195,7 @@ button:hover {
 textarea {
 	width: 97%;
 	display: inline;
+	border-radius: 5px;
 }
 
 input, textarea {
@@ -265,10 +267,9 @@ footer li {
 	border-bottom: none;
 }
 
-.footer-column a:hover{
+.footer-column a:hover {
 	color: #49B4B6;
 }
-
 
 @media only screen and (max-width: 700px) {
 nav {	
